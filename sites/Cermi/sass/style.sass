@@ -1,0 +1,1016 @@
+*
+  margin-block-start: 0
+  margin-block-end: 0
+.hero
+  background: url('../img/Lines.svg') no-repeat, #FCF2F2
+  &__section
+    padding: 0 411px
+    position: relative
+    display: flex
+    justify-content: space-between
+    flex-direction: row
+  &__title
+    display: inline-block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 36px
+    letter-spacing: 0.08em
+    text-transform: uppercase
+    max-width: 568px
+    margin-top: 68px
+  &__subtitle
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 24px
+    max-width: 568px
+    margin-top: 20px
+  &__btn
+    border: 1px solid #000
+    padding: 24px 30px 19px 30px
+    position: absolute
+    left: 830px
+    bottom: 150px
+  &__text
+    display: inline-block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 26px
+    text-transform: uppercase
+  &__text::after
+    content: '\2192'
+    font-size: 26px
+    margin-left: 10px
+    font-weight: 700
+
+.header
+  &__section
+    padding: 30px 411px 0 411px
+    display: flex
+    justify-content: space-between
+    height: 190px
+  &__burger
+    display: none
+.burger
+  &__nav
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
+    background-color: #000
+    z-index: 2
+    display: none
+  &__menu
+    list-style-type: none
+    padding-inline-start: 0
+    li
+      padding: 20px 0
+      border: 1px solid #fff
+      text-align: right
+  &__item
+    display: block
+    width: 100%
+    height: 25px
+    text-align: center
+    text-decoration: none
+    color: #fff
+    font-family: 'Montserrat', sans-serif
+    font-size: 20px
+    text-transform: uppercase
+.menu-item
+  text-decoration: none
+  color: #000
+  font-family: 'Montserrat', sans-serif
+  font-size: 22px
+  margin-left: 84px
+.target
+  &__section
+    background-color: #FCF2F2
+    padding: 221px 411px 0 411px
+    display: flex
+    flex-direction: row
+    // justify-content: space-between
+  &__title
+    display: inline-block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 30px
+    letter-spacing: 0.08em
+    margin-bottom: 100px
+  &__description
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 24px
+    max-width: 450px
+    margin-left: 30px
+    line-height: 29px
+  &__image
+    margin-top: 38px
+    margin-right: 48px
+.about
+  &__section
+    background-color: #FCF2F2
+    padding: 221px 411px 0 411px
+    display: flex
+    flex-direction: row
+    // justify-content: space-between
+  &__title
+    display: inline-block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 30px
+    letter-spacing: 0.08em
+    margin-bottom: 100px
+  &__description
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 24px
+    max-width: 450px
+    margin-left: 30px
+    line-height: 29px
+  &__image
+    margin-left: 115px
+.advantage
+  &__section
+    background-color: #FCF2F2
+    padding: 221px 411px 0 411px
+    display: flex
+    flex-direction: row
+    // justify-content: space-between
+  &__title
+    display: inline-block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 30px
+    letter-spacing: 0.08em
+    margin-bottom: 100px
+  &__description
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 24px
+    max-width: 450px
+    margin-left: 30px
+    line-height: 29px
+  &__image
+    margin-right: 150px
+.list-item
+  display: flex
+  flex-direction: row
+  align-items: center
+  margin-bottom: 40px
+.collection
+  &__section
+    background-color: #FCF2F2
+    padding: 330px 411px 0 411px
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__title
+    display: inline-block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 30px
+    letter-spacing: 0.08em
+    line-height: 37px
+    margin-bottom: 55px
+  &__slider
+    display: flex
+    flex-direction: row
+    position: relative
+    padding: 45px
+.slider
+  &__list
+    display: flex
+    flex-direction: row
+    list-style-type: none
+    padding: 0
+    margin-bottom: 30px
+  &__item
+    margin: 0 15px 0 15px
+  &__arrow-left
+    position: absolute
+    left: 0
+    top: 45%
+    font-family: 'Montserrat', sans-serif
+    font-size: 30px
+  &__arrow-right
+    position: absolute
+    right: 0
+    top: 45%
+    font-family: 'Montserrat', sans-serif
+    font-size: 30px
+  &__dots
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    position: absolute
+    left: 40%
+    bottom: 0
+.dot-active
+  background: radial-gradient(50% 50% at 50% 50%, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%)
+  border-radius: 100%
+.price
+  &__section
+    background-color: #FCF2F2
+    padding: 250px 411px 0 411px
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__title
+    display: inline-block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 30px
+    letter-spacing: 0.08em
+    line-height: 37px
+    margin-bottom: 80px
+  &__info
+    display: flex
+    flex-direction: row
+  &__card
+    margin: 0 49px 0 49px
+  &__name
+    display: block
+    text-align: center
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 24px
+    line-height: 29px
+    margin-bottom: 20px
+  &__description
+    display: block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 24px
+    line-height: 29px
+    margin: 10px 0
+  &__count
+    display: block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 26px
+    line-height: 32px
+    margin-bottom: 17px
+  &__btn
+    border: 1px solid #000
+    padding: 24px 13px 19px 25px
+    margin-right: 44px
+  &__text
+    display: inline-block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 26px
+    letter-spacing: 0.1em
+    text-transform: uppercase
+  &__text::after
+    content: '\2192'
+    font-size: 26px
+    margin-left: 10px
+    font-weight: 700
+.contact
+  &__section
+    background: url('../img/Vase.svg') no-repeat, #FCF2F2
+    padding: 190px 411px 196px 411px
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__title
+    display: inline-block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 30px
+    letter-spacing: 0.08em
+    line-height: 37px
+    margin-bottom: 94px
+.form
+  &__overlay
+    position: relative
+    height: 426px
+    width: 530px
+  &__content
+    display: flex
+    flex-direction: column
+    align-items: center
+    border: 1px solid #000
+    margin: 25px
+    padding: 43px 50px
+  &__str
+    height: 50px
+    width: 350px
+    border: 1px solid #000
+    background-color: #FCF2F2
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 24px
+    line-height: 29px
+    letter-spacing: 0.1em
+    padding: 5px 10px 5px 18px
+    margin: 5px 0
+  &__btn
+    height: 60px
+    width: 380px
+    border: 1px solid #000
+    background-color: #FCF2F2
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 24px
+    line-height: 29px
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    margin-top: 15px
+.corner-dot
+  position: absolute
+#rightUp
+  right: 0
+  top: 0
+#leftUp
+  left: 0
+  top: 0
+#rightDown
+  right: 0
+  top: 376px
+#leftDown
+  left: 0
+  top: 376px
+.footer
+  &__section
+    background-color: #FCF2F2
+    padding: 22px 411px 20px 411px
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+  &__tel, &__adress
+    display: block
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 20px
+    letter-spacing: 0.1em
+    margin: 5px 0
+.modal
+  display: none
+  &__section
+    position: relative
+    width: 100%
+    height: 100vh
+  &__overlay
+    position: fixed
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    background: rgba(0, 0, 0, 0.5)
+  &__window
+    position: fixed
+    display: flex
+    flex-direction: column
+    align-items: center
+    left: 35%
+    top: 20%
+    height: 360px
+    width: 310px
+    border-radius: 10px
+    background-color: #FCF2F2
+    border: 3px dashed #242323
+    padding: 20px
+  &__title
+    text-align: center
+    text-transform: uppercase
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 14px
+    line-height: 1.25
+    margin-bottom: 25px
+  &__form
+    display: flex
+    flex-direction: column
+    align-items: center
+    label
+      color: #000
+      font-family: 'Montserrat', sans-serif
+      font-size: 14px
+  &__input
+    height: 30px
+    width: 250px
+    background-color: #FCF2F2
+    border: 1px dashed #242323
+    margin-top: 7px
+    margin-bottom: 20px
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 14px
+  &__btn
+    height: 45px
+    width: 250px
+    background-color: #FCF2F2
+    border: 1px solid #242323
+    color: #000
+    font-family: 'Montserrat', sans-serif
+    font-size: 14px
+    text-transform: uppercase
+.close-modal
+  position: fixed
+  top: 50px
+  right: 70px
+@media  ( max-width: 1440px )
+  .header
+    &__section
+      padding: 30px 200px 0 200px
+      height: 150px
+  .menu-item
+    margin-left: 40px
+  .hero
+    &__section
+      padding: 0 200px
+    &__title
+      font-size: 28px
+    &__subtitle
+      font-size: 20px
+    &__btn
+      padding: 19px 25px 14px 25px
+      left: 400px
+      bottom: 190px
+  .target
+    &__section
+      padding: 180px 200px 0 200px
+    &__title
+      font-size: 28px
+      margin-bottom: 80px
+    &__description
+      font-size: 18px
+      line-height: 25px
+      max-width: 500px
+  .about
+    &__section
+      padding: 180px 200px 0 200px
+    &__title
+      font-size: 28px
+      margin-bottom: 80px
+    &__description
+      font-size: 18px
+      line-height: 25px
+      max-width: 500px
+    &__img
+      height: 85%
+  .advantage
+    &__section
+      padding: 180px 200px 0 200px
+    &__title
+      font-size: 28px
+      margin-bottom: 60px
+    &__description
+      font-size: 18px
+      line-height: 25px
+      max-width: 500px
+    &__img
+      height: 80%
+  .list-item
+    margin-bottom: 30px
+  .collection
+    &__section
+      padding: 50px 200px 0 200px
+    &__title
+      font-size: 28px
+      margin-bottom: 30px
+  .price
+    &__section
+      padding: 180px 200px 0 200px
+    &__title
+      font-size: 28px
+      margin-bottom: 30px
+    &__name, &__description, &__text
+      font-size: 18px
+    &__btn
+      padding: 14px 8px 14px 20px
+      margin-right: 104px
+  .contact
+    &__section
+      padding: 180px 200px 0 200px
+    &__title
+      font-size: 28px
+      margin-bottom: 30px
+  .footer
+    &__section
+      padding: 180px 200px 0 200px
+    span
+      font-size: 18px
+@media  ( max-width: 1024px )
+  .header
+    &__section
+      padding: 30px 150px 0 150px
+      height: 150px
+  .menu-item
+    margin-left: 40px
+  .hero
+    &__section
+      padding: 0 150px
+    &__title
+      font-size: 28px
+      margin-top: 38px
+    &__subtitle
+      font-size: 20px
+    &__btn
+      padding: 10px 15px 10px 15px
+      left: 460px
+      bottom: 50px
+    &__text, &__text:after
+      font-size: 18px
+    &__image
+      max-width: 288px
+    &__item
+      width: 100%
+  .target
+    &__section
+      padding: 100px 150px 0 150px
+    &__image
+      max-width: 310px
+      margin-top: 48px
+      margin-right: 38px
+    &__img
+      width: 100%
+    &__title
+      font-size: 24px
+      margin-bottom: 40px
+    &__description
+      font-size: 16px
+      line-height: 25px
+      max-width: 500px
+      margin-left: 15px
+  .about
+    &__section
+      padding: 100px 150px 0 150px
+    &__title
+      font-size: 24px
+      margin-bottom: 40px
+    &__description
+      font-size: 16px
+      line-height: 25px
+      max-width: 550px
+      margin-left: 15px
+    &__img
+      width: 100%
+    &__image
+      max-width: 310px
+      margin-left: 38px
+  .advantage
+    &__section
+      padding: 100px 150px 0 150px
+    &__title
+      font-size: 24px
+      margin-bottom: 40px
+    &__description
+      font-size: 16px
+      line-height: 25px
+      max-width: 500px
+    &__img
+      width: 100%
+    &__image
+      max-width: 310px
+      margin-right: 38px
+  .list-item
+    margin-bottom: 15px
+  .collection
+    &__section
+      padding: 50px 150px 0 150px
+    &__title
+      font-size: 24px
+      margin-bottom: 20px
+  .slider
+    &__item
+      width: 250px
+      height: 250px
+      img
+        width: 100%
+        height: 100%
+  .price
+    &__section
+      padding: 100px 150px 0 150px
+    &__title
+      font-size: 24px
+      margin-bottom: 30px
+    &__name, &__description, &__text
+      font-size: 16px
+    &__card
+      margin: 0 15px 0 15px
+    &__item
+      width: 100%
+    &__image
+      max-width: 250px
+    &__text, &__text:after
+      font-size: 16px
+    &__btn
+      padding: 10px 8px 10px 15px
+      margin-right: 104px
+  .contact
+    &__section
+      padding: 100px 150px 0 150px
+    &__title
+      font-size: 24px
+      margin-bottom: 30px
+  .form
+    &__overlay
+      height: 276px
+      width: 380px
+    &__content
+      padding: 23px 25px
+    &__str
+      height: 30px
+      width: 225px
+      font-size: 16px
+      line-height: 20px
+    &__btn
+      height: 40px
+      width: 250px
+      font-size: 16px
+      line-height: 20px
+      letter-spacing: 0.1em
+      text-transform: uppercase
+      margin-top: 20px
+  #rightDown
+    right: 0
+    top: 261px
+  #leftDown
+    left: 0
+    top: 261px
+  .footer
+    &__section
+      padding: 100px 150px 0 150px
+    span
+      font-size: 16px
+@media  ( max-width: 768px )
+  .header
+    &__section
+      padding: 30px 100px 0 100px
+      height: 100px
+  .menu-item
+    font-size: 18px
+    margin-left: 20px
+  .hero
+    &__section
+      padding: 0 100px
+    &__title
+      font-size: 24px
+      margin-top: 18px
+    &__subtitle
+      font-size: 16px
+    &__btn
+      padding: 10px 15px 10px 15px
+      left: 290px
+      bottom: 60px
+    &__text, &__text:after
+      font-size: 16px
+    &__image
+      max-width: 268px
+    &__item
+      width: 100%
+  .target
+    &__section
+      padding: 75px 100px 0 100px
+    &__image
+      max-width: 290px
+      margin-top: 30px
+      margin-right: 28px
+    &__img
+      width: 100%
+    &__icon
+      width: 35px
+      height: 35px
+    &__title
+      font-size: 20px
+      margin-bottom: 30px
+    &__description
+      font-size: 14px
+      line-height: 20px
+      max-width: 500px
+      margin-left: 10px
+  .about
+    &__section
+      padding: 75px 100px 0 100px
+    &__title
+      font-size: 20px
+      margin-bottom: 30px
+    &__description
+      font-size: 14px
+      line-height: 20px
+      max-width: 550px
+      margin-left: 10px
+    &__icon
+      width: 35px
+      height: 35px
+    &__img
+      width: 100%
+    &__image
+      max-width: 290px
+      margin-left: 28px
+  .advantage
+    &__section
+      padding: 75px 100px 0 100px
+    &__title
+      font-size: 20px
+      margin-top: 20px
+      margin-bottom: 30px
+    &__description
+      font-size: 14px
+      line-height: 20px
+      max-width: 500px
+    &__icon
+      width: 35px
+      height: 35px
+    &__img
+      width: 100%
+    &__image
+      max-width: 290px
+      margin-right: 28px
+  .list-item
+    margin-bottom: 10px
+  .collection
+    &__section
+      padding: 30px 100px 0 100px
+    &__title
+      font-size: 24px
+    &__slider
+      padding: 20px 45px 35px 45px
+  .slider
+    &__item:last-child
+      display: none
+    &__item
+      width: 150px
+      height: 150px
+      img
+        width: 100%
+        height: 100%
+    &__arrow-left, &__arrow-right
+      top: 35%
+  .price
+    &__section
+      padding: 75px 100px 0 100px
+    &__title
+      font-size: 20px
+      margin-bottom: 30px
+    &__name, &__description, &__text
+      font-size: 14px
+      line-height: 20px
+    &__card
+      max-width: 200px
+      margin: 0 10px 0 10px
+    &__item
+      width: 100%
+    &__image
+      max-width: 200px
+    &__text, &__text:after
+      font-size: 14px
+    &__btn
+      padding: 10px 8px 10px 15px
+      margin-right: 54px
+    &__count
+      font-size: 22px
+      line-height: 27px
+      margin-bottom: 10px
+  .contact
+    &__section
+      padding: 75px 100px 0 100px
+    &__title
+      font-size: 20px
+      margin-bottom: 20px
+  .footer
+    &__icon
+      width: 30px
+      height: 30px
+    &__section
+      padding: 75px 100px 0 100px
+    span
+      font-size: 14px
+  .modal__window
+    left: 25%
+@media  (max-width: 425px)
+  .header
+    &__section
+      padding: 15px 50px 0 50px
+      height: 50px
+    &__menu
+      display: none
+    &__burger
+      position: relative
+      width: 30px
+      height: 20px
+      display: flex
+      align-items: center
+      border-top: 2px solid #000
+      border-bottom: 2px solid #000
+      span
+        content: ''
+        display: block
+        background-color: #000
+        height: 2px
+        width: 100%
+
+  &__menu
+    display: flex
+    position: relative
+    z-index: 2
+
+  &__menu li
+    list-style: none
+    margin: 0px 0px 0px 36px
+    font-size: 16px
+    text-transform: uppercase
+    text-decoration: none
+  .hero
+    &__section
+      padding: 0 50px
+      height: 200px
+    &__title
+      font-size: 15px
+      margin-top: 10px
+    &__subtitle
+      font-size: 10px
+    &__btn
+      padding: 5px 10px 5px 10px
+      left: 100px
+      bottom: 10px
+    &__text, &__text:after
+      font-size: 12px
+    &__image
+      max-width: 230px
+    &__item
+      width: 100%
+  .target
+    &__section
+      padding: 50px 50px 0 50px
+    &__image
+      display: none
+    &__icon
+      width: 35px
+      height: 35px
+    &__title
+      font-size: 18px
+      margin-bottom: 10px
+      text-align: center
+    &__description
+      font-size: 14px
+      line-height: 15px
+      max-width: 500px
+      margin-left: 10px
+  .about
+    &__section
+      padding: 50px 50px 0 50px
+    &__title
+      font-size: 18px
+      margin-bottom: 10px
+      text-align: center
+    &__description
+      font-size: 14px
+      line-height: 15px
+      max-width: 550px
+      margin-left: 10px
+    &__icon
+      width: 35px
+      height: 35px
+    &__image
+      display: none
+  .advantage
+    &__section
+      padding: 50px 50px 0 50px
+    &__title
+      font-size: 18px
+      margin-bottom: 10px
+    &__description
+      font-size: 14px
+      line-height: 20px
+      max-width: 500px
+    &__icon
+      width: 35px
+      height: 35px
+    &__image
+      display: none
+  .list-item
+    margin-bottom: 10px
+  .collection
+    &__section
+      padding: 30px 50px 0 50px
+    &__title
+      font-size: 20px
+      margin-bottom: 10px
+    &__slider
+      padding: 20px 25px 25px 25px
+  .dot
+    height: 35px
+    width: 35px
+  .slider
+    &__item
+      width: 100px
+      height: 100px
+      margin: 0 5px
+      img
+        width: 100%
+        height: 100%
+    &__arrow-left, &__arrow-right
+      top: 30%
+      font-size: 20px
+    &__dots
+      left: 30%
+  .price
+    &__section
+      padding: 50px 50px 0 50px
+    &__title
+      font-size: 20px
+      margin-bottom: 10px
+    &__info
+      flex-direction: column
+    &__name, &__description, &__text
+      font-size: 14px
+      line-height: 20px
+    &__card
+      max-width: 200px
+      margin-bottom: 40px
+  .contact
+    &__section
+      padding: 50px 50px 0 50px
+      height: 400px
+    &__title
+      font-size: 20px
+      margin-bottom: 20px
+      text-align: center
+  .form
+    &__overlay
+      height: 196px
+      width: 300px
+    &__str
+      height: 25px
+      width: 145px
+      font-size: 12px
+      line-height: 16px
+    &__btn
+      height: 40px
+      width: 170px
+      font-size: 12px
+      line-height: 16px
+  #rightDown
+    right: 0
+    top: 246px
+  #leftDown
+    left: 0
+    top: 246px
+  .footer
+    &__section
+      padding: 50px 50px 20px 50px
+      flex-direction: column
+    span
+      font-size: 16px
+      text-align: center
+    &__info, &__logo, &__social
+      margin-top: 15px
+  .modal
+    display: none
+    &__window
+      position: fixed
+      display: flex
+      flex-direction: column
+      align-items: center
+      left: 15%
+      top: 10%
+      height: 360px
+      width: 220px
+      border-radius: 10px
+      background-color: #FCF2F2
+      border: 3px dashed #242323
+      padding: 10px
+    &__title
+      text-align: center
+      text-transform: uppercase
+      color: #000
+      font-family: 'Montserrat', sans-serif
+      font-size: 10px
+      line-height: 1.25
+      margin-bottom: 15px
+    &__form
+      display: flex
+      flex-direction: column
+      align-items: center
+      label
+        color: #000
+        font-family: 'Montserrat', sans-serif
+        font-size: 10px
+    &__input
+      height: 20px
+      width: 200px
+      background-color: #FCF2F2
+      border: 1px dashed #242323
+      margin-top: 7px
+      margin-bottom: 10px
+      color: #000
+      font-family: 'Montserrat', sans-serif
+      font-size: 10px
+    &__btn
+      height: 45px
+      width: 200px
+      background-color: #FCF2F2
+      border: 1px solid #242323
+      color: #000
+      font-family: 'Montserrat', sans-serif
+      font-size: 10px
+      text-transform: uppercase
+.close-modal
+  position: fixed
+  top: 30px
+  right: 50px

@@ -1,0 +1,421 @@
+.header
+  &__section
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 40px 90px
+.menu__link
+  font-family: 'Poppins', sans-serif
+  font-size: 14px
+  font-weight: 700
+  text-decoration: none
+  color: #333
+  margin-right: 60px
+.app__btn
+  border: 0
+  background-color: #fff
+  font-family: 'Poppins', sans-serif
+  font-size: 14px
+  font-weight: 700
+  margin-right: 30px
+.confirm__btn
+  cursor: pointer
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)
+  border-radius: 100px
+  width: 157px
+  height: 54px
+  color: #fff
+  border: 0
+  font-family: 'Poppins', sans-serif
+  font-size: 14px
+  font-weight: 700
+.hero
+  &__section
+    background: url('../img/hero_bg.svg') no-repeat
+    height: 720px
+    display: flex
+    padding: 50px 150px
+  &__info
+    max-width: 500px
+    padding-top: 50px
+  &__title
+    font-family: 'Poppins', sans-serif
+    font-size: 40px
+    font-weight: 300
+    line-height: 55px
+    color: #fff
+  &__bold
+    font-weight: 700
+  &__subtitle
+    font-family: 'Poppins', sans-serif
+    font-size: 18px
+    font-weight: 300
+    line-height: 27px
+    color: #fff
+  &__btn
+    cursor: pointer
+    background-color: #fff
+    border-radius: 100px
+    width: 157px
+    height: 54px
+    color: #90169c
+    border: 0
+    font-family: 'Poppins', sans-serif
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    box-shadow: inset 0px 0px 20px rgba(144, 22, 156, 0.2 )
+    margin-top: 30px
+  &__pic
+    position: relative
+    object-fit: contain
+  &__item
+    position: absolute
+    z-index: 1
+
+.img__overlay
+  position: absolute
+  z-index: 0
+  left: 215px
+  top: 235px
+  animation: blink 2.5s ease infinite
+  height: 190px
+  width: 190px
+  border-radius: 99%
+
+.about
+  &__section
+    padding: 0 100px
+    display: flex
+  &__title
+    font-family: 'Poppins', sans-serif
+    font-size: 28px
+    font-weight: 700
+    color: #90169c
+  &__title:after
+    content: ''
+    display: block
+    width: 50px
+    height: 7px
+    background-color: #90169c
+    border-radius: 20%
+    margin-top: 10px
+  &__subtitle
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    font-weight: 300
+    color: #333
+    line-height: 35px
+  &__btn
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)
+    border-radius: 100px
+    width: 157px
+    height: 54px
+    color: #fff
+    border: 0
+    font-family: 'Poppins', sans-serif
+    font-size: 14px
+    font-weight: 700
+    margin-top: 35px
+.protection
+  &__section
+    background: url('../img/protection_bg.png') top no-repeat
+    height: 450px
+    display: flex
+    justify-content: space-between
+    margin-top: 50px
+    padding: 200px 100px
+  &__title
+    font-family: 'Poppins', sans-serif
+    font-size: 28px
+    font-weight: 700
+    line-height: 42px
+    color: #fff
+    max-width: 260px
+  &__title:after
+    content: ''
+    display: block
+    width: 50px
+    height: 7px
+    background-color: #fff
+    border-radius: 20%
+    margin-top: 10px
+  &__subtitle
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    font-weight: 300
+    line-height: 40px
+    color: #fff
+    max-width: 450px
+  &__btn
+    background-color: #fff
+    border-radius: 100px
+    width: 157px
+    height: 54px
+    color: #90169c
+    border: 0
+    font-family: 'Poppins', sans-serif
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    margin-top: 25px
+.rates
+  &__section
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 0 50px
+  &__info
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  &__title
+    font-family: 'Poppins', sans-serif
+    font-size: 28px
+    font-weight: 700
+    color: #90169c
+  &__title:after
+    content: ''
+    display: block
+    width: 50px
+    height: 7px
+    background-color: #90169c
+    border-radius: 20%
+    margin-top: 5px
+    margin-left: 45px
+  &__subtitle
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    font-weight: 300
+    color: #333
+    line-height: 35px
+    margin-top: 25px
+  &__tables
+    position: relative
+    display: flex
+    justify-content: space-between
+    width: 92%
+    height: 450px
+    margin-top: 35px
+  &__item
+    background: linear-gradient(178.18deg, #C35BA7 -13.56%, #fff 30.11%, #FD749B 63.82%, #fff 158.3%)
+    border: solid 1px #90169c
+    border-radius: 15px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: start
+    width: 31%
+    padding: 5px
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7)
+  &__name
+    font-family: 'Poppins', sans-serif
+    font-size: 24px
+    font-weight: 700
+    line-height: 30px
+    color: #F5709D
+    text-align: center
+    text-transform: uppercase
+  &__line
+    content: ''
+    display: block
+    width: 50px
+    height: 7px
+    background-color: #F5709D
+    border-radius: 20%
+
+  &__subscription
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    font-weight: 300
+    color: #333
+    line-height: 30px
+    margin-top: 25px
+    height: 30%
+    max-width: 300px
+  &__hash
+    display: block
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    font-weight: 300
+    color: #333
+    line-height: 35px
+    margin-top: 15px
+    text-align: center
+  &__price
+    display: block
+    font-family: 'Poppins', sans-serif
+    font-size: 20px
+    font-weight: 700
+    line-height: 30px
+    color: #90169c
+    text-align: center
+    text-transform: uppercase
+    text-align: center
+  &__btn
+    cursor: pointer
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)
+    border-radius: 100px
+    width: 137px
+    height: 45px
+    color: #fff
+    border: 0
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    font-weight: 700
+    margin-top: 35px
+.subscribe
+  &__section
+    background: url('../img/protection_bg.png') top no-repeat
+    height: 150px
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-top: 50px
+    padding: 200px 100px
+  &__title
+    padding-top: 50px
+    padding-bottom: 10px
+    font-family: 'Poppins', sans-serif
+    font-size: 28px
+    font-weight: 700
+    line-height: 35px
+    color: #fff
+    margin-block-end: 0
+    margin-block-start: 0
+  &__subtitle
+    font-family: 'Poppins', sans-serif
+    font-size: 16px
+    font-weight: 300
+    line-height: 35px
+    color: #fff
+    padding-bottom: 30px
+  &__btn
+    background-color: #fff
+    border-radius: 100px
+    width: 157px
+    height: 54px
+    color: #90169c
+    border: 0
+    font-family: 'Poppins', sans-serif
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    margin-top: 25px
+  &__input
+    height: 54px
+    width: 350px
+    border-radius: 100px
+    text-transform: uppercase
+    border: solid 1px #FD749B
+    padding-left: 38px
+.footer
+  &__section
+    height: 180px
+    background-color: #000
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+  &__logo
+    padding: 50px 70px
+    color: #8a8787
+    font-family: 'Poppins', sans-serif
+    font-size: 14px
+    font-weight: 300
+  &__subtitle
+    padding-top: 15px
+    margin-block-end: 0
+    margin-block-start: 0
+  &__contact
+    padding-top: 50px
+    color: #8a8787
+    font-family: 'Poppins', sans-serif
+    font-size: 14px
+    font-weight: 300
+  &__mail
+    margin-block-end: 0
+    margin-block-start:
+  &__social
+    padding-top: 70px
+    padding-right: 70px
+  &__icon
+    height: 30px
+    width: 30px
+    margin-left: 10px
+
+@keyframes blink
+  0%
+    box-shadow: 0
+  50%
+    box-shadow: 0px 0px 270px rgba(10, 250, 250, 1 )
+  100%
+    box-shadow: 0
+.modal, .select
+  display: none
+  &__section
+    z-index: 2
+    position: relative
+    width: 100%
+    height: 100vh
+  &__overlay
+    position: fixed
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    background: rgba(0, 0, 0, 0.5)
+  &__window
+    position: fixed
+    display: flex
+    flex-direction: column
+    align-items: center
+    background: url('../img/modal-bg.png') no-repeat
+    width: 560px
+    height: 400px
+    left: 25%
+    top: 20%
+    padding: 30px 20px
+  &__title
+    font-family: 'Poppins', sans-serif
+    font-size: 20px
+    font-weight: 300
+    line-height: 24px
+    color: #fff
+    text-align: center
+  &__form
+    display: flex
+    flex-direction: column
+    align-items: center
+    label
+      font-family: 'Poppins', sans-serif
+      font-size: 18px
+      font-weight: 300
+      line-height: 22px
+      color: #fff
+      margin-top: 15px
+  &__input
+    width: 320px
+    height: 20px
+    margin-top: 7px
+    font-family: 'Poppins', sans-serif
+    font-size: 12px
+  &__area
+    width: 320px
+    height: 70px
+    font-family: 'Poppins', sans-serif
+    font-size: 12px
+  &__button
+    height: 40px
+    width: 150px
+    margin-top: 20px
+    background-color: #fff
+    color: #000
+    font-family: 'Poppins', sans-serif
+    font-size: 18px
+    border-radius: 15px
+    border: 0
+  &__close
+    position: fixed
+    top: 50px
+    right: 70px

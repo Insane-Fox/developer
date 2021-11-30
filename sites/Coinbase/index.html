@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoinBase</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header header__section">
+    <div class="header__logo">
+      <img src="img/Logo.svg" alt="Logo" class="logo__item">
+    </div>
+    <div class="header__menu">
+      <a href="#home" class="menu__link">Home</a>
+      <a href="#about" class="menu__link">About Us</a>
+      <a href="#rates" class="menu__link">Rates</a>
+      <a href="#subscribe" class="menu__link">Subscribe Us</a>
+    </div>
+    <div class="header__btns">
+      <button class="app__btn">Download App</button>
+      <a href="#rates"><button class="confirm__btn"> Choose Rate</button></a>
+    </div>
+  </header>
+  <div class="hero hero__section" id="home">
+    <div class="hero__info">
+      <h1 class="hero__title">We provide easy solution for <span class="hero__bold">Bitcoin Cloud Mining</span></span></h1>
+      <p class="hero__subtitle">CoinBase is a platform for mining bitcoin and
+     other cryptocurrency at the best rate, why not give us a trial.</p>
+      <a href="#rates"><button class="hero__btn">Choose Rate</button></a>
+    </div>
+    <div class="hero__pic">
+      <img src="img/hero_img.svg" alt="hero-img" class="hero__item">
+      <div class="img__overlay"></div>
+    </div>
+  </div>
+  <div class="about about__section" id="about">
+    <div class="about__pic">
+      <img src="img/about_img.svg" alt="about_img" class="about__item">
+    </div>
+    <div class="about__info">
+      <h2 class="about__title">Welcome to CoinBase</h2>
+      <p class="about__subtitle">We have the best rates. Simply start your mining right now. Sign up for our Affiliate program and earn commission from each withdrawal. The earnings are credited in your account instantly and can be withdrawn right away. Also note some mining directions are hidden for unverified user. To ensure to have access to all our mining directions and benefits kindly sign up and verify your identity.</p>
+      <button class="about__btn" id="contact">Contact Us</button>
+    </div>
+  </div>
+  <div class="protection protection__section">
+    <div class="protection__info">
+      <h2 class="protection__title">Great experience with CoinBase</h2>
+      <p class="protection__subtitle">CoinBase is an online site and a p2admin platform that allows users to earn, exchange and withdraw digital assets safely. Owned and managed by CoinBase Business Services established and Incoperated in Nigeria.</p>
+      <button class="protection__btn" id="contact"> Contact Us</button>
+    </div>
+    <div class="protection__pic">
+      <img src="img/protection_img.svg" alt="protection_img" class="protection__item">
+    </div>
+  </div>
+  <div class="rates rates__section" id="rates">
+    <div class="rates__info">
+      <div class="rates__title">Our Rates</div>
+      <div class="rates__subtitle">We have rates for miners of any level</div>
+    </div>
+    <div class="rates__tables">
+      <div class="rates__item">
+        <h3 class="rates__name">Beginner</h3>
+        <div class="rates__line"></div>
+        <p class="rates__subscription">For those who are faced with mining for the first time. Gives access to limited resources. Also has withdrawal restrictions</p>
+        <span class="rates__hash">15 kH/s</span>
+        <span class="rates__price">10$/month</span>
+        <button class="rates__btn" id="selector">Select</button></div>
+      <div class="rates__item ">
+        <h3 class="rates__name">Amateur</h3>
+        <div class="rates__line"></div>
+        <p class="rates__subscription">For advanced users. Access to all resources. Robot assistant available. Has withdrawal restrictions.</p>
+        <span class="rates__hash">100 kH/s</span>
+        <span class="rates__price">55$/month</span>
+        <button class="rates__btn" id="selector">Select</button></div>
+      <div class="rates__item">
+        <h3 class="rates__name">Pro</h3>
+        <div class="rates__line"></div>
+        <p class="rates__subscription">For those who have extensive mining experience. Provides access to all resources. There are no withdrawal restrictions. The user gets access to a personal manager.</p>
+        <span class="rates__hash">1 MH/s</span>
+        <span class="rates__price">150$/month</span>
+        <button class="rates__btn" id="selector">Select</button></div>
+    </div>
+  </div>
+  <div class="subscribe subscribe__section" id="subscribe">
+    <h2 class="subscribe__title">Subscribe our newsletter</h2>
+    <p class="subscribe__subtitle">Subscribe to our newsletter for daily/weekly update of our products and services.</p>
+    <form enctype="multipart/form-data" method="post" id="form1" onsubmit="send(event, 'subscription.php')"  class="subscribe__form">
+    <input type="text" name="subscribe-mail" placeholder="e-mail" id="main-mail" class="subscribe__input">
+    <button class="subscribe__btn" type="submit" id="main-submit">Subscribe</button></form>
+  </div>
+  <footer class="footer footer__section">
+    <div class="footer__logo">
+      <img src="img/footer-logo.svg" alt="footer-logo" class="footer__item">
+      <p class="footer__subtitle">CoinBase Business Services. All rights reserved. 2021</p>
+    </div>
+    <div class="footer__contact">
+      <p class="footer__mail">Coinbase@yahoo.com</p>
+      <p class="footer__tel"> +1(234)7898673</p>
+    </div>
+    <div class="footer__social">
+      <a href="https://www.google.ru"><img src="img/Google+.svg" alt="Google" class="footer__icon"></a>
+      <a href="https://www.facebook.com"><img src="img/Facebook.svg" alt="Facebook" class="footer__icon"></a>
+      <a href="https://twitter.com"><img src="img/Twitter.svg" alt="Twitter" class="footer__icon"></a>
+      <a href="https://www.instagram.com"><img src="img/Instagram.svg" alt="Instagram" class="footer__icon"></a>
+    </div>
+  </footer>
+  <div class="modal modal__section">
+    <div class="modal__overlay">
+      <img src="img/close.png" class="modal__close" alt="X">
+      <div class="modal__window">
+        <span class="modal__title">Ask us a question and we will answer within 5 minutes</span>
+        <form enctype="multipart/form-data" method="post" id="form1" onsubmit="send(event, 'modal.php')" class="modal__form">
+          <label for="modal-name">Your name</label>
+          <input type="text" name="modal-name" id="modal-name" class="modal__input">
+          <label for="modal-mail">Your e-mail</label>
+          <input type="email" name="modal-mail" id="modal-mail" class="modal__input">
+          <label for="modal-question">What is your question</label>
+          <textarea name="modal-question" id="question" cols="30" rows="" class="modal__area"></textarea>
+          <button type="submit" id="modal-submit" class="modal__button">Submit</button>
+        </form>
+      </div> 
+    </div>
+  </div>
+  <div class="select select__section">
+    <div class="select__overlay">
+      <img src="img/close.png" class="select__close" alt="X">
+      <div class="select__window">
+        <span class="select__title">Select your chosen rate and we will contact you to connect it</span>
+        <form enctype="multipart/form-data" method="post" id="form1" onsubmit="send(event, 'selector.php')" class="select__form">
+          <label for="select-name">Your name</label>
+          <input type="text" name="select-name" id="selector-name" class="select__input">
+          <label for="select-mail">Your e-mail</label>
+          <input type="email" name="select-mail" id="selector-mail" class="select__input">
+          <label for="select-choice">Chosen rate:</label>
+          <select name="select-choice"  class="select__input">
+            <option value="Beginner">Beginner</option>
+            <option value="Amateur">Amateur</option>
+            <option value="Pro">Pro</option>
+          </select>
+          <button type="submit" id="selector-submit" class="select__button">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<script src="js/main.js"></script>
+</body>
+</html>
